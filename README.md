@@ -21,7 +21,8 @@ When brought back online:
   ```md
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling```
+SO THAT my account balance is accurate when I am traveling.
+    ```
 
 ##  Business Context
 
@@ -51,7 +52,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 The following necessary dependencies must be installed to run the application.
 
- mongoDB, mongoDB Atlas, Express, mongoose, morgan, compression, lite-server, Heroku
+ mongoDB Atlas, Express, mongoose, morgan, compression, lite-server, Heroku
 
 ## Usage
 
