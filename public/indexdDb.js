@@ -23,16 +23,22 @@ const indexedDB =
         db = request.result;
         //tx = db.transaction(storeName, "readwrite");
         //store = tx.objectStore(storeName);
-  
-        db.onerror = function(e) {
-          console.log("error");
-        };
-
         if (navigator.onLine) {
           checkDatabase();
         }
       };
 
+        db.onerror = function(e) {
+          console.log("error");
+        };
+        
+        function saveRecord(record) {
+          const transaction = db.transaction(["pending"], "readwrite");
+          const store = transaction.objectStore("pending");
+        
+          store.add(record);
+        }
+       
  function checkDatabase() {
     const transaction = db.transaction(["pending"], "readwrite");
     const store = transaction.objectStore("pending");
@@ -59,13 +65,6 @@ const indexedDB =
   }
 };
  }
-
-function saveRecord(record) {
-  const transaction = db.transaction(["pending"], "readwrite");
-  const store = transaction.objectStore("pending");
-
-  store.add(record);
-}
 
 window.addEventListener("online", checkDatabase);
         
