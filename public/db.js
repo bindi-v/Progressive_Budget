@@ -28,7 +28,7 @@ const indexedDB =
         }
       };
 
-        db.onerror = function(e) {
+        request.onerror = function(e) {
           console.log("error");
         };
         
