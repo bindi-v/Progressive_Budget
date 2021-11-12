@@ -3,7 +3,7 @@ const CACHE_NAME = "static-cache-v1";
 
 const FILES_TO_CACHE = [
     "/",
-    "/indexdDb.js",
+    "/indexedDb.js",
     "/index.js",
     "/styles.css",
     "/manifest.json",
