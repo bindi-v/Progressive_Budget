@@ -3,7 +3,7 @@ const CACHE_NAME = "static-cache-v1";
 
 const FILES_TO_CACHE = [
     "/",
-    "/bundle.js",
+    "/indexdDb.js",
     "/index.js",
     "/style.css",
     "/manifest.json",
@@ -12,8 +12,6 @@ const FILES_TO_CACHE = [
     "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
   ];
   
-  
-
   // install
 self.addEventListener("install", function(evt) {
     evt.waitUntil(
@@ -23,7 +21,7 @@ self.addEventListener("install", function(evt) {
       })
     );
   
-    self.skipWaiting();
+    //self.skipWaiting();
   });
   
   self.addEventListener("activate", function(evt) {
