@@ -38,6 +38,11 @@ WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 ```
 
+## Mock Up
+
+![Progressive Budget Homepage for Transaction History](./assets/PB1.png)
+
+![Progressive Budget Homepage for Transaction History in graph](./assets/PB2.png)
 ## Table Of Contents
 
 - [Installation](#installation)
