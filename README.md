@@ -89,7 +89,7 @@ If you have any questions, please reach out to my Github.
 
 ### Deployed Link
 
-* [The URL to the deployed to Heroku application](https://mysterious-atoll-10659.herokuapp.com/)
+* [The URL of the deployed application on Render!](https://progressive-budget.onrender.com)
 
 * [The URL to the Github repository](https://github.com/bindi-v/Progressive_Budget)
 
